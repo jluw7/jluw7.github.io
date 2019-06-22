@@ -48,6 +48,13 @@ nav ul {
     float: center;
     display: inline;
 }
+
+.featured{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center; 
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
