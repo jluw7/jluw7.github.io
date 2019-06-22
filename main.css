@@ -38,12 +38,15 @@ nav ul {
 }
 .navbar-left {
     float: left;
+    display: inline;
 }
 .navbar-right {
     float: right;
+    display: inline;
 }
 .navbar-brand {
     float: center;
+    display: inline;
 }
 .jumbotron {
   display: flex;
