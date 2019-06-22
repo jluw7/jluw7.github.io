@@ -1,0 +1,74 @@
+html, body {
+  min-height: 100%;
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: inherit;
+}
+
+.main {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+nav ul {
+  display: inline;
+}
+.nav-right {
+    float: right;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.content-container {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.content-item {
+  flex: 1;
+  flex-basis: 25%;
+  margin: 20px;
+}
+
+.content-item .thumbnail {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ffffff;
+}
