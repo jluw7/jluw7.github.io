@@ -24,8 +24,10 @@ body {
   }
 }
 
+
 .navbar {
   background-color: black;
+  color: white;
 }
 
 nav li {
