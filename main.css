@@ -23,9 +23,12 @@ body {
     padding: 10px 0;
   }
 }
-
-
 .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.44rem;
+  padding: 0 12%;
   background-color: black;
   color: white;
 }
