@@ -30,13 +30,16 @@ body {
   height: 4.44rem;
   padding: 0 12%;
   background-color: black;
-  color: white;
 }
 
 nav li {
   margin: 0;
   padding: 0 10px;
   display: inline;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
 }
 nav ul {
   display: inline;
