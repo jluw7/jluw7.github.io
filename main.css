@@ -23,9 +23,11 @@ body {
     padding: 10px 0;
   }
 }
+
 .navbar {
   height: 4.44rem;
-  padding: 0 12%;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: black;
 }
 .navbar-brand {
@@ -41,12 +43,15 @@ body {
   float: right;
   display: inline;
 }
+nav ul {
+  
+}
 nav li {
   margin: 0;
   padding: 0 10px;
   display: inline;
 }
-nav li a {
+nav a {
   text-decoration: none;
   color: white;
   font-size: 18px;
