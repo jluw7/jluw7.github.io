@@ -24,11 +24,14 @@ nav a:hover {
 .navbar-brand {
   font-size: 30px;
 }
-.pull-right {
+.right {
   float: right;
   display: inline;
 }
-
+.left {
+  float: left;
+  display: inline;
+}
 .jumbotron {
   display: flex;
   align-items: center;
