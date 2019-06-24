@@ -29,7 +29,8 @@ nav a:hover {
   font-size: 30px;
 }
 .container {
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0;
 }
 .right {
