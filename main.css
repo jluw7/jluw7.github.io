@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -26,11 +27,6 @@ nav a:hover {
 .pull-right {
   float: right;
   display: inline;
-}
-
-.container {
-  padding-top: 50px;
-  margin-top: 50px;
 }
 
 .jumbotron {
