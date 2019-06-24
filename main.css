@@ -23,18 +23,17 @@ nav a:hover {
 }
 .navbar-brand {
   font-size: 30px;
-  margin-left: 30px;
 }
-.navbar-nav {
-  margin-right: 30px;
-}
+
 .right {
   float: right;
   display: inline;
+  margin-right: 10px;
 }
 .left {
   float: left;
   display: inline;
+  margin-left: 10px;
 }
 .jumbotron {
   display: flex;
