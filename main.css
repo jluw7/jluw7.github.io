@@ -15,9 +15,13 @@ nav a {
   font-size: 18px;
   color: white;
 }
+nav a:hover {
+  color: darkgray;
+}
 
 .navbar {
   background-color: black;
+  color: white;
 }
 .navbar-brand {
   font-size: 30px;
