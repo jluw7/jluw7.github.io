@@ -21,6 +21,10 @@ nav a {
     float: right;
     display: inline;
 }
+.left {
+    float: left;
+    display: inline;
+}
 .jumbotron {
   display: flex;
   align-items: center;
