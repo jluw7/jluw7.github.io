@@ -1,7 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 150px;
 }
 
 nav {
@@ -18,10 +18,8 @@ nav a {
 nav a:hover {
   color: darkgray;
 }
-
 .navbar {
   background-color: black;
-  color: white;
 }
 .navbar-brand {
   font-size: 30px;
