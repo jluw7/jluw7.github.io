@@ -9,14 +9,12 @@ nav a {
 }
 
 nav .navbar-toggle {
-  margin: 13px 15px 13px 0;
+  margin: 13px 15px 13px 10px;
 }
 
 .navbar-brand {
   font-size: 30px;
 }
-
-
 
 nav.navbar.shrink {
   min-height: 35px;
