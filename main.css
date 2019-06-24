@@ -11,10 +11,6 @@ nav a {
   color: white;
 }
 
-nav a:hover {
-  color: darkgray;
-}
-
 .navbar {
   background-color: black;
 }
@@ -34,11 +30,11 @@ nav a:hover {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  padding-bottom: 20px;
 }
 
 .jumbotron h3 {
   color: #fff;
+  padding-bottom: 20px;
 }
 .btn {
     background-color: black;
