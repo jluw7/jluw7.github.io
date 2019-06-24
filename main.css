@@ -3,10 +3,6 @@ body, html {
   margin: 0;
   padding: 0;
 }
-@media (min-width: 768px)
-.container {
-    width: 900px;
-}
 nav {
   margin: 0;
   padding: 0;
@@ -31,6 +27,7 @@ nav a:hover {
 .navbar-brand {
   font-size: 30px;
 }
+@media (min-width: 768px)
 .container {
   margin: 0;
   padding: 0;
