@@ -2,14 +2,15 @@ body {
   padding-top: 50px;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+}
+
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
   font-size: 18px;
-}
-
-nav .navbar-toggle {
-  margin: 13px 15px 13px 10px;
 }
 
 .navbar-brand {
