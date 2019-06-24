@@ -58,6 +58,7 @@ nav a {
 /* Change the link color on hover */
 nav a:hover {
   color: #f1f1f1;
+  text-decoration: none;
 }
 nav .navbar-toggle {
   margin: 13px 15px 13px 0;
