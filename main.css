@@ -20,6 +20,8 @@ nav a:hover {
 }
 .navbar {
   background-color: black;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .navbar-brand {
   font-size: 30px;
