@@ -17,7 +17,9 @@ nav a {
 .navbar-brand {
   font-size: 30px;
 }
-
+.right {
+    float: right;
+}
 .jumbotron {
   display: flex;
   align-items: center;
