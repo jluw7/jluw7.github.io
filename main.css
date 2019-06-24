@@ -28,24 +28,7 @@ nav a:hover {
   float: right;
   display: inline;
 }
-nav.navbar.shrink {
-  min-height: 35px;
-}
 
-nav.shrink a {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 15px;
-}
-
-nav.shrink .navbar-brand {
-  font-size: 25px;
-}
-
-nav.shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
-}
 .container {
   padding-top: 50px;
 }
