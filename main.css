@@ -26,6 +26,9 @@ nav a {
     display: inline;
 }
 .featured-content-item {
+  position: relative;
+  top: 0;
+  left: 0;
 }
 .background-box {
   width: 200px;
