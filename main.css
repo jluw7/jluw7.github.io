@@ -3,6 +3,9 @@ html {
   margin: 0;
   padding: 0;
 }
+bodyy {
+  background-color: #fbf7f5;
+}
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
@@ -27,7 +30,6 @@ nav a {
   width: 89%;
   position: relative;
   top: 100px;
-  background-color: #fbf7f5;
 }
 .row {
   display: flex;
@@ -111,6 +113,9 @@ nav a {
   height: 300px;
   width: 100%;
   position: relative;
+}
+section.row {
+  display: block;
 }
 .jumbotron h2 {
   font-size: 40px;
