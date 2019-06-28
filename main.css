@@ -3,10 +3,6 @@ html {
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #fbf7f5;
-  color: black;
-}
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
@@ -35,7 +31,7 @@ nav a {
 .grid {
   display: grid;
   grid-template: repeat(6, 300px) / repeat(3, 1fr);
-  grid-gap: 70px 70px;
+  grid-gap: 100px 100px;
 }
 @media screen and (max-width: 800px) {
   .grid {
