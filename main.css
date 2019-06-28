@@ -3,7 +3,7 @@ html {
   margin: 0;
   padding: 0;
 }
-bodyy {
+body {
   background-color: #fbf7f5;
 }
 nav a {
@@ -92,7 +92,7 @@ nav a {
   max-height: 66%;
 }
 .caption {
-  padding: 2rem 2rem 2rem 2rem;
+  margin-top: 2rem;
 }
 .background-box {
   width: 200px;
