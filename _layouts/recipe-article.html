@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="recipe-article-banner">
+  <div class="recipe-article-title text-center">
+    <h1><strong>{{ page.title }}</strong></h1>
+  </div>
+  <div class="recipe-article-enticer text-center">
+    <h4>{{ page.enticer }}</h4>
+  </div>
+</div>
+<div class="recipe-article-image">
+  <img src="{{ page.image }}" style="width:100vw">
+</div>
+<div class="recipe-article">
+  {{ content }}
+</div>
+<br><br>
+<div class="get-recipe text-center">
+  <h3>See the recipe here:</h3><br>
+    <a href="{{ page.recipe-url }}"><img src="{{ page.thumbnail }}" style="width:35vw"></a>
+  <h3><a href="{{ page.recipe-url }}"><strong>{{ page.title }}</strong></a></h3>
+</div>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="LULU's Food Journey.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link href="/main.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<!--header-->
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="nav-wrapper">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand left" href="/">JLU</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav right">
+            <li><a href="/start-here">START HERE</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/recipes/index.html">RECIPES</a></li>
+            <li><a href="/features/index.html">FEATURES</a></li>
+            <li><a href="/subscribe">SUBSCRIBE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+<!--<div class="recipe-banner">
+  <div class="recipe-title">
+    <h1><strong>{{ page.title }}</strong></h1>
+  </div>
+  <div class="recipe-description text-center">
+    <h4>{{ page.description }}</h4>
+  </div>
+</div>
+<div class="recipe-image">
+  <img src="{{ page.image }}" style="width:100vw">
+  <div class="overview">-->
+    <!--<div class="overview-detail text-center">
+      <i class="material-icons md-dark">schedule</i>
+    </div>
+    <div class="overview-detail text-center">
+      <i class="material-icons md-dark">person_outline</i>
+    </div>-->
+  <!--</div>
+</div>
+<div class="recipe-info">
+  <div class="ingredients">
+    <div class="ingredients-title"><h3 class="text-center">INGREDIENTS</h3><br></div>
+    <p>{{ page.ingredients }}</p>
+  </div>
+  <div class="right-panel recipe">
+    <p>{{ page.advice }}</p>
+    <div class="directions">
+    </div>
+  </div>
+</div>-->
+<div class="recipe-head">
+  <div class="recipe-banner">
+    <div class="recipe-title text-center"> 
+      <h1><strong>{{ page.title }}</strong></h1>
+    </div>
+    <div class="recipe-description text-center">
+      <h4>{{ page.description }}</h4>
+    </div>
+  </div>
+  <div class="recipe-image-1">
+    <img src="{{ page.image-1 }}"> 
+  </div>
+</div>
+  <div class="recipe-image-2">
+    <img src="{{ page.image-2 }}">
+  </div>
+  <div class="ingredients">
+    <div class="ingredients-title"><h3 class="text-center">INGREDIENTS</h3><br></div>
+    <p>{{ page.excerpt }}</p>
+  </div>
+  <div class="directions">
+    <p style="font-size: 1.5rem">{{ page.advice }}</p>
+    <p>{{content|remove_first: page.excerpt}}</p>
+  </div>
+<!--footer-->
+  <div class="text-center" id="footer">
+    <p>&copy Jielu Wang 2019</p>
+  </div>
+</body>
+</html>

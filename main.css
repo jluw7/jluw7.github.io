@@ -1,10 +1,19 @@
-html {
-  font-family: 'Lato', sans-serif;
+/* main stuff */
+html, body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
-body {
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 25px; /* height of footer */
   background-color: #fbf7f5;
+}
+header {
+  margin-bottom: 60px;
 }
 nav a {
   padding-top: 20px !important;
@@ -14,8 +23,10 @@ nav a {
 }
 .navbar {
   background-color: black;
+  align-items: center;
 }
 .navbar-brand {
+  height: 60px;
   font-size: 30px;
 }
 .right {
@@ -29,96 +40,135 @@ nav a {
 .container {
   width: 89%;
   position: relative;
-  top: 100px;
+  padding-bottom: 25px;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+  line-height: 25px;
+  width: 100%;
+  background: black;
+  color: #fff;
+}
+
+.main-container h1 {
+  font-family: 'Hind Siliguri', sans-serif;
+  text-transform: uppercase;
+}
+
+/* about fully responsive on desktop */
+
+.about-me {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+#Me {
+  width: 30vw;
+  display: inline-block;
+  margin: 0 0 0 5vw;
+}
+#Me img {
+  object-fit: cover;
+  max-width: 100% !important;
+}
+#About-Me {
+  display: inline-block;
+  width: 40vw;
+  margin: 0 0 0 10vw;
+}
+@media screen and (max-width: 600px) {
+    .about-me {
+      display: block;
+      height: auto;
+      text-align: center;
+    }
+    #Me {
+      width: 70vw;
+      margin: 0;
+    }
+    #About-Me {
+      width: 70vw;
+      margin: 5vh 0 0 0;
+    }
+}
+
+/* homepage fully responsive on desktop */
+
+
+/* row for homepage */
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10px;
+  justify-content: center;
 }
 .column {
-  flex: 33%;
-  max-width: 33%;
-  padding: 0 10px;
+  width: 33%;
+  padding: 0 15px;
 }
-.grid {
-  display: grid;
-  grid-template: repeat(6, 300px) / repeat(3, 1fr);
-  grid-gap: 100px 100px;
-}
-@media screen and (max-width: 800px) {
-  .grid {
-    grid-template: repeat(9, 300px) / repeat(2, 1fr);
-    grid-gap: 70px 70px;
-  }
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-@media screen and (max-width: 600px) {
-  .grid {
-    grid-template: repeat(12, 300px) / minmax(320px, 1fr);
-    grid-row-gap: 50px;
-  }
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-.grid-item {
-  display: inline-block;
-  transition: 0.3s;
-  background-color: #fff;
-}
-.grid-item:hover {
-    .background-box {
-        opacity: 1.0;
-    }
-}
+/* homepage cards */
 .card {
   background-color: #fff;
+  height: 65vh;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.description {
-  font-size: 1.5rem;
-  padding: 0.5rem;
 }
 .card-thumbnail {
   position: relative;
   top: 0;
   left: 0;
-  max-height: 66%;
+}
+.card-thumbnail img {
+  object-fit: cover;
+  height: 50vh;
 }
 .caption {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.background-box {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background-color: coral;
-  z-index: -1;
-  opacity: 0;
-}
-.jumbotron {
-  display: block;
+  height: 15vh;
+  padding: 0 5vw;
+  font-weight: bold;
+  font-size: 2.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+.caption p {
+  margin: 0;
+}
+.caption a {
+  color: black;
+}
+.caption a:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+/* jumbotron */
+.jumbotron {
+  position: relative;
   background-color: black;
   background-size: cover;
   color: #ffffff;
   height: 300px;
   width: 100%;
-  position: relative;
 }
 .jumbotron h2 {
+  font-family: 'Hind Siliguri', sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
@@ -130,17 +180,469 @@ nav a {
   background-color: black;
   border-color: #fff;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 10px;
   letter-spacing: 1.3px;
   padding: 10px 20px;
   text-decoration: none;
-  text-transform: uppercase;  
-  margin-bottom: 20px;      
+  text-transform: uppercase;    
+}
+.btn:hover {
+  background-color: black;
+  border-color: #fff;
 }
 
-.footer {
-  height: 100px;
-  background: #ecf0f1;
+
+
+/* recipes display, fully responsive on computer */
+/* need to test on mobile */
+
+
+.grid {
+  display: grid;
+  grid-template: repeat(auto-fit, 15vw) / repeat(3, 1fr);
+  grid-gap: 75px 75px;
+  grid-template-rows: 1fr;
 }
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template: repeat(auto-fit, 30vw) / repeat(2, 1fr);
+    grid-gap: 70px 50px;
+    grid-template-rows: 2fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template: repeat(auto-fit, 15vw) / repeat(1, 1fr);
+    grid-row-gap: 50px;
+    grid-template-rows: 3fr;
+  }
+}
+.grid-item {
+  display: inline-block;
+  transition: 0.3s;
+  background-color: #fbf7f5;
+}
+.grid-item-thumbnail img {
+  transition: box-shadow 0.3s;
+  box-shadow: none;
+  height: 100%;
+}
+.grid-item-thumbnail img:hover {
+  box-shadow: 10px -10px 0 coral;
+}
+.grid-caption {
+  padding-top: 0;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+.grid-caption a {
+  color: black;
+  text-decoration: none;
+}
+.tag {
+  text-transform: uppercase;
+  padding-top: 2rem;    
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
+}
+.tag h6 {
+  margin-bottom: 0;
+}
+.tag a {
+  color: coral;
+  text-decoration: none;
+}
+
+
+/* travel and food gallery */
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 9.8vw);
+    grid-gap: 15px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}      
+.gallery-item-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}   
+.gallery-item-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.gallery-item-4 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}   
+.gallery-item-5 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery-item-6 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery-item-7 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.gallery-item-8  {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+
+/* recipe article */
+
+
+.recipe-article-banner {
+  position: relative;
+  height: 50vh;
+  background-color: black;
+  color: white;
+  padding: 0 10vw;
+}
+.recipe-article-title {
+  margin: 0;
+  position: relative;
+  top: 0;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.recipe-article-title h1 {
+  line-height: 5rem;
+}
+.recipe-article-enticer {
+  padding: 2vh 1.5vw;
+  line-height: 2rem;
+}
+.recipe-article-enticer h4 {
+  line-height: 2.5rem;
+}
+.recipe-article-image {
+  position: relative;
+}
+.recipe-article-image img {
+  object-fit: cover;
+  height: 100vh;
+}
+.recipe-article {
+  padding: 10vh 15vw;
+  font-size: 1.75rem;
+  line-height: 3rem;
+}
+.get-recipe {
+  display: block;
+  margin-bottom: 10vh;
+}
+.get-recipe h3 {
+  margin-top: 3vh;
+  font-size: 2.5rem;
+}
+.get-recipe a {
+  color: black;
+}
+.get-recipe a:hover {
+  text-decoration: none;
+}
+
+/* recipe v1*/
+
+.recipe-head {
+  display: flex;
+  height: 91vh;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+.recipe-banner {
+  display: block;
+  width: 50%;
+  position: relative;
+  height: 35vh;
+  background-color: white;
+  color: black;
+  padding: 0 0 0 20px;
+}
+.recipe-title {
+  margin: 0;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.recipe-title h1 {
+  text-transform: uppercase;
+  font-family: 'Hind Siliguri';
+}
+.recipe-description {
+  padding: 1.5vw;
+}
+.recipe-description h4 {
+  line-height: 3rem;
+}
+.recipe-image-1 {
+  width: 50%;
+  display:inline-block;
+}
+.recipe-image-1 img {
+  object-fit: cover;
+  height: 85vh; 
+  width: auto;
+  max-width: 100% !important;
+  padding: 0 20px;
+}
+/*.recipe-info {
+  margin-top: 5vh;
+  padding: 0 20px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 91vh;
+  align-items: center;
+  overflow: auto;
+}*/
+.recipe-image-2 {
+  width: 70%;
+  display:inline-block;
+}
+.recipe-image-2 img {
+  object-fit: cover;
+  height: 85vh; 
+  width: auto;
+  max-width: 100% !important;
+  padding: 0 20px;
+}
+.ingredients {
+  float: right;
+  height: 85vh;
+  width: 30vw;
+  overflow-y: scroll;
+  background-color: white;
+  padding: 5vh 3vw 0 3vw;
+  word-wrap: break-word;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  color: black;
+  display:inline-block;
+}
+.ingredients-title {
+  width: 20vw;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.ingredients-title h3 {
+  border-bottom-width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding-bottom: 2rem;
+}
+.directions {
+  height: auto;
+  width: 70vw;
+  padding: 7vh 10vw 10vh 5vw;
+  padding-bottom: 30px;
+ }
+#footer {
+  position: relative;
+  height: 25px;
+  line-height: 25px;
+  width: 100%;
+  background: black;
+  color: #fff;
+}
+#footer p {
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .recipe-head {
+      display: block;
+    }
+    .recipe-banner {
+      width: 100%;
+      padding: 0 20vw;
+      margin-bottom: 10vh;
+    }
+    .recipe-image-1 {
+      width: 100%;
+    }
+    .recipe-image-2 {
+      width: 100%;
+      margin-top: 27vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    .recipe-head {
+      display: block;
+    }
+    .recipe-banner {
+      width: 100%;
+      padding: 0 20vw;
+      margin: 10vh 0;
+    }
+    .recipe-image-1 {
+      width: 100%;
+    }
+    .recipe-image-2 {
+      width: 100%;
+      margin-top: 37vh;
+    }
+    .ingredients-title h3 {
+      font-size: 1.5rem;
+    }
+}
+
+
+/* recipe v2 */
+
+/*.recipe-banner {
+  position: relative;
+  height: 35vh;
+  background-color: white;
+  color: black;
+  padding: 0 10rem;
+}
+.recipe-title {
+  margin: 0;
+  position: relative;
+  top: 0;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.recipe-title h1 {
+  text-transform: uppercase;
+  font-family: 'Hind Siliguri';
+}
+.recipe-description {
+  padding: 1.5vw;
+}
+.recipe-image {
+  position: relative;
+}
+.recipe-image img {
+  object-fit: cover;
+  height: 115vh;
+}
+.overview {
+  background-color: black;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  line-height: 15vh;
+  border-bottom-width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+
+}*/
+/*.overview-detail {
+  height: 15vh;
+  width: 33%;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. 
+  -webkit-font-smoothing: antialiased;
+   Support for Safari and Chrome. 
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. 
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. 
+  font-feature-settings: 'liga';
+}
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 36px;
+}
+.material-icons.i {
+  width: 33%;
+}
+*/
+/*.recipe-info {
+  padding: 0;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ingredients {
+  height: calc(100vh - 60px);
+  width: 30vw;
+  overflow-y: scroll;
+  background-color: black;
+  padding: 3rem;
+  word-wrap: break-word;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  color: #fff;
+}
+.ingredients-title {
+  width: 20vw;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.ingredients-title h3 {
+  border-bottom-width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  padding-bottom: 2rem;
+}
+.right-panel {
+  height: 300vh;
+  width: 70vw;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 30px;
+ }*/

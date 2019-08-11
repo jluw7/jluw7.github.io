@@ -1,214 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>LULU'S BLOG | Home</title>
-    <meta name="description" content="LULU's Food Journey.">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-    <link href="main.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-<!--header-->
-  <header>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="nav-wrapper">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand left" href="https://jluw7.github.io">JLU</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav right">
-            <li><a href="/start-here">START HERE</a></li>
-            <li><a href="/about">ABOUT</a></li>
-            <li><a href="/recipes">RECIPES</a></li>
-            <li><a href="/travel-and-food">TRAVEL AND FOOD</a></li>
-            <li><a href="/subscribe">SUBSCRIBE</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-<!--container-->
+---
+layout: default
+title: LULU'S BLOG | Home
+---
+
+<!--Featured Recipes Row-->
   <div class="container">
     <div class="text-center">
-      <p><strong>hello</strong></p><br>
-      <p>hi</p><br> 
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>      
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hello</p><br> 
-      <h3>Featured Recipes</h3><br><br>
+      <br><br><h1><strong>Recent Recipes</strong></h1><br><br>
     </div>
-  <div class="row">
-    <div class="col-sm-3">
+    <div class="row">
+      {% assign sortedrecipearticles = site.recipe-articles | sort: 'date' | reverse %}
+      {% for recipe-article in sortedrecipearticles limit:3 %}
+      <div class="column">
         <div class="card">
           <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
+            <a href="{{ recipe-article.url }}"><img src="{{ recipe-article.image }}" alt="{{ recipe-article.title }}" style="width:100%"></a>
           </div>
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-          <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
+          <div class="caption text-center">
+              <p><a href="{{ recipe-article.url }}"><strong>{{ recipe-article.title }}</strong></a></p>
           </div>
         </div>
+      </div>
+      {% endfor %}
+      </div>
+      
+<!--Featured Travel Guides Row-->
+    <div class="text-center">
+      <br><br><br><br><h1><strong>Features</strong></h1><br><br>
     </div>
-    <div class="col-sm-3">
-        <div class="card">
-          <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
-          </div>
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-          <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
-          </div>
-        </div>
-    </div>
-  </div>
-  <div class="text-center">
-      <br><br><h3>Featured Travel Guides</h3><br><br>
-  </div>
-  <div class="row">
-    <div class="col-sm-3">
+    <div class="row">
+      {% assign sortedfeatures = site.feature-collection | sort: 'date' | reverse %}
+      {% for feature in sortedfeatures limit:3 %}
+      <div class="column">
         <div class="card">
           <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
+            <a href="{{ feature.url }}" target="_blank"><img src="{{ feature.image }}" alt="{{ feature.title}}" style="width:100%"></a>
           </div>
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-          <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
+          <div class="caption text-center">
+            <p><a href="{{ feature.url }}"><strong>{{ feature.title }}</strong></a></p>
           </div>
         </div>
+      </div>
+      {% endfor %}
     </div>
-    <div class="col-sm-3">
-        <div class="card">
-          <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
-          </div>
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-          <div class="caption">
-            <h4>Picture of food</h4>
-          </div>
-          <div class="card-thumbnail">
-            <a href="#" target="_blank"><img src="https://weneedfun.com/wp-content/uploads/2015/10/Delicious-Food-Photos-12.jpg" alt="food" style="width:100%"></a>
-          </div>
-        </div>
-    </div>
-  </div>
-  <div class="text-center">
-      <br><br><br><br><br>
-      <p>hello</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hello</p><br> 
-  </div>
 </div>
+<br><br><br>
 <!-- The homepage about block-->
-<section class="jumbotron">
-  <h2>JLU'S BLOG</h2>
-  <h3>Documenting my food journey: one photo, word, and bite at a time </h3>
-  <a class="btn btn-primary" href="./about.html" role="button">Learn More</a>
-</section>
+  <section class="jumbotron text-center">
+    <h2>JLU'S BLOG</h2>
+    <h3>Documenting my food journey: one bite, photo, and word at a time </h3><br>
+    <a class="btn btn-primary" href="/about" role="button">Learn More</a>
+  </section>
 <!--Container-->
-<div class="container">
-  <div class="text-center">
-      <br><br><br><br><br><br><br><br>
-      <p>hello</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hi</p><br>
-      <p>hello</p><br> 
+  <div class="container">
+    <div class="text-center">
+    </div>
   </div>
-</div>
-<!--footer-->
-<footer class="footer">
-    <p &copy>jlu</p>
-</footer>
-</body>
-</html>
