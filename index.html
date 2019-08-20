@@ -3,6 +3,57 @@ layout: default
 title: LULU'S BLOG | Home
 ---
 
+<!--Container-->
+<div class="container">
+  <div class="text-center">
+    <div class="home-gallery">
+      <div class="home-gallery-item home-gallery-item-1">
+        <a href="/recipe-articles/clam-soup/"><img src="/pictures/recipes/clam-soup-2.jpg" class="home-gallery-img" alt="Clam Soup"></a>
+      </div>
+      <div class="home-gallery-caption home-gallery-caption-1 text-center">
+        <p>RECIPE</p>
+        <h3><a href="/recipe-articles/clam-soup/"><strong>Japanese Clam Soup</strong></a></h3>
+      </div>
+      <figure class="home-gallery-item home-gallery-item-2">
+          <a href="/recipe-articles/kamo-rosu-duck/"><img src="/pictures/recipes/kamo-rosu-duck-2.jpg" class="home-gallery-img" alt="Kamo Rosu Duck"></a>
+      </figure>
+      <div class="home-gallery-caption home-gallery-caption-2 text-center">
+        <p>RECIPE</p>
+        <h4><a href="/recipe-articles/kamo-rosu-duck/"><strong>Kamo Rosu Duck</strong></a></h4>
+      </div>
+      <figure class="home-gallery-item home-gallery-item-3">
+          <a href="/features/why-you-should-be-drinking-nut-milk/"><img src="/pictures/features/nut-milk-1.jpg" class="home-gallery-img" alt="Nut Milk"></a>
+      </figure>
+      <div class="home-gallery-caption home-gallery-caption-3 text-center">
+        <p>BASICS</p>
+        <h4><a href="/features/why-you-should-be-drinking-nut-milk/"><strong>Why You Should Be Drinking Homemade Nut Milk</strong></a></h4>
+      </div>
+      <figure class="home-gallery-item home-gallery-item-4">
+          <a href="/recipe-articles/hokkaido-milk-bread/"><img src="/pictures/recipes/hokkaido-milk-bread-thumbnail.jpg" class="home-gallery-img" alt="Hokkaido Milk Bread"></a>
+      </figure>
+      <div class="home-gallery-caption home-gallery-caption-4 text-center">
+        <p>RECIPE</p>
+        <h4><a href="/recipe-articles/hokkaido-milk-bread/"><strong>Hokkaido Milk Bread</strong></a></h4>
+      </div>
+      <figure class="home-gallery-item home-gallery-item-5">
+          <a href="/recipe-articles/hainan-chicken/"><img src="/pictures/recipes/hainan-chicken-thumbnail.jpg" class="home-gallery-img" alt="Hainan Chicken"></a>
+      </figure>
+      <div class="home-gallery-caption home-gallery-caption-5 text-center">
+        <p>RECIPE</p>
+        <h4><a href="/recipe-articles/hainan-chicken/"><strong>Hainan Chicken</strong></a></h4>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+</div>
+
+<!-- The homepage about block-->
+<section class="jumbotron text-center">
+  <h2>JLU'S BLOG</h2>
+  <h3>Documenting my food journey: one bite, photo, and word at a time </h3><br>
+  <a class="btn btn-primary" href="/about" role="button">Learn More</a>
+</section>
+
 <!--Featured Recipes Row-->
   <div class="container">
     <div class="text-center">
@@ -26,17 +77,17 @@ title: LULU'S BLOG | Home
       
 <!--Featured Travel Guides Row-->
     <div class="text-center">
-      <br><br><br><br><h1><strong>Features</strong></h1><br><br>
+      <br><br><br><br><h1><strong>Recent Features</strong></h1><br><br>
     </div>
     <div class="row">
       {% assign sortedfeatures = site.feature-collection | sort: 'date' | reverse %}
       {% for feature in sortedfeatures limit:3 %}
       <div class="column">
         <div class="card">
-          <div class="card-thumbnail">
+          <div class="card-thumbnail feature">
             <a href="{{ feature.url }}" target="_blank"><img src="{{ feature.image }}" alt="{{ feature.title}}" style="width:100%"></a>
           </div>
-          <div class="caption text-center">
+          <div class="caption feature text-center">
             <p><a href="{{ feature.url }}"><strong>{{ feature.title }}</strong></a></p>
           </div>
         </div>
@@ -45,14 +96,3 @@ title: LULU'S BLOG | Home
     </div>
 </div>
 <br><br><br>
-<!-- The homepage about block-->
-  <section class="jumbotron text-center">
-    <h2>JLU'S BLOG</h2>
-    <h3>Documenting my food journey: one bite, photo, and word at a time </h3><br>
-    <a class="btn btn-primary" href="/about" role="button">Learn More</a>
-  </section>
-<!--Container-->
-  <div class="container">
-    <div class="text-center">
-    </div>
-  </div>

@@ -1,15 +1,16 @@
 ---
 layout: default
-title: LULU'S RECIPES | Home
+title: DESSERT - TAGGED RECIPES | Home
 ---
 
 <div class="container">
   <div class="text-center">
-    <br><br><br><h1><strong>Recipes</strong></h1><br><br><br>
+    <br><br><br><h1><strong>Dessert - Tagged Recipes</strong></h1><br><br><br>
   </div>
   <div class="grid">
     {% assign sortedrecipearticles = site.recipe-articles | sort: 'date' | reverse %}
     {% for recipe-article in sortedrecipearticles %}
+    {% if recipe-article.tag contains "Dessert" %}
     <div class="grid-item">
           <div class="grid-item-thumbnail">
             <a href="{{ recipe-article.url }}" target="_blank"><img src="{{ recipe-article.image }}" style="width:100%"></a>
@@ -21,6 +22,7 @@ title: LULU'S RECIPES | Home
             <h3><a href="{{ recipe-article.url }}">{{ recipe-article.title }}</a></h3>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
   <br><br><br>

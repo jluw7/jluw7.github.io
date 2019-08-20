@@ -2,9 +2,18 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<h5>{{ page.category }}</h5>
-<img src="{{ page.image }}">
-<div class="feature">
+<div class="feature-banner">
+  <div class="feature-title text-center">
+    <h1><strong>{{ page.title }}</strong></h1>
+  </div>
+  <div class="feature-enticer text-center">
+    <h4>{{ page.enticer }}</h4>
+  </div>
+</div>
+<div class="feature-image">
+  <img src="{{ page.image }}" style="width:100vw">
+</div>
+<div class="feature-content">
   {{ content }}
 </div>
+<br><br>

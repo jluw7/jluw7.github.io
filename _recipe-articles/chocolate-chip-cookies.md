@@ -2,6 +2,7 @@
 layout: recipe-article
 title: Chocolate Chip Cookies
 tag: Dessert
+tag-url: /recipes/tags/dessert
 image: /pictures/recipes/chocolate-chip-cookies-thumbnail.jpg
 enticer: Cookies that will keep you coming back for one more.
 thumbnail: /pictures/recipes/chocolate-chip-cookies-thumbnail.jpg
