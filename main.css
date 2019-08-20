@@ -560,7 +560,14 @@ footer {
 
 /* recipe v1*/
 
-
+.servings {
+  width: 100%;
+  height: 50px;
+  font-size: 1.25rem;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
 .recipe-head {
   display: flex;
   height: 91vh;
