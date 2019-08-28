@@ -11,7 +11,7 @@ About 65% of the world’s population has some degree of lactose intolerance aft
 Some of us choose to drink milk because we believe that it is essential for good bone health or protein consumption. Others simply like the taste or enjoy coffee or cereal with a splash of milk. Nuts and nut milks are the perfect milk substitute in both cases.  
 &nbsp;
 
-Milk campaigns and supposed age old wisdom has ingrained in our heads that milk is the key to strong bones. In reality, milk is far from the sole answer; the foundation of bone health lies in regular exercise and a balanced diet of calcium-containing foods, salt and animal protein which encourage calcium excretion, and vitamin- and mineral-rich foods. We can consume calcium in a variety of foods—not just milk—such as nuts, beans, dark greens such as kale and collards, and foods processed with calcium salts, like tofu. Hazelnuts, for example, provide a comparable amount of calcium per 100g as reduced fat milk, and almonds can provide more than twice the amount of calcium. Additionally, many nuts, such as cashews, almonds, and hazelnuts, contain far more protein per 100g than reduced fat milk. Nuts are also an excellent source of many vitamins and minerals, notably vitamin E and folic acid (see table below).   
+Milk campaigns and supposed age old wisdom has ingrained in our heads that milk is the key to strong bones. In reality, milk is far from the sole answer; the foundation of bone health lies in regular exercise and a balanced diet of calcium-containing foods, salt and animal protein which encourage calcium excretion, and vitamin- and mineral-rich foods. We can consume calcium in a variety of foods—not just milk—such as nuts, beans, dark greens such as kale and collards, and foods processed with calcium salts, like tofu. Hazelnuts, for example, provide a comparable amount of calcium per 100g to reduced fat milk, and almonds can provide more than twice the amount of calcium. Additionally, many nuts, such as cashews, almonds, and hazelnuts, contain far more protein per 100g than reduced fat milk. Nuts are also an excellent source of many vitamins and minerals, notably vitamin E and folic acid.   
 
 &nbsp;
 
@@ -27,6 +27,6 @@ Unfortunately, while nuts themselves are incredibly nutritious, most of the nuts
 &nbsp;
 <div class="get-recipe text-center">
 <h3>See the recipe here:</h3><br>
-<a href="/recipe-articles/homemade-nut-milk/"><img src="/pictures/features/nut-milk-1.jpg" style="width:35vw"></a>
-<h3><a href="/recipe-articles/homemade-nut-milk/"><strong>Homemade Nut Milk</strong></a></h3>
+<a href="/recipes/homemade-nut-milk/"><img src="/pictures/features/nut-milk-1.jpg" style="width:35vw"></a>
+<h3><a href="/recipes/homemade-nut-milk/"><strong>Homemade Nut Milk</strong></a></h3>
 </div>

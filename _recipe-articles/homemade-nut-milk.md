@@ -4,24 +4,27 @@ title: Homemade Nut Milk
 tag: Drink
 tag-url: /recipes/tags/drink
 image: /pictures/features/nut-milk-1.jpg
-enticer: A healthy, homemade milk substitute
+thumbnail: /pictures/features/nut-milk-1.jpg
+enticer: Don't shy away from healthy fats and calories. 
+recipe-url: /recipes/homemade-nut-milk/
 date: 2019-07-19
 ---
-<div class="cont" style="width:100vw;position:absolute;left:0;height:auto">
-<div class="servings text-center"><strong>Makes 3-4 cups</strong></div><br>
-<div class="ingredients" style="background-color:#fbf7f5">
-  <div class="ingredients-title"><h3 class="text-center">INGREDIENTS</h3><br></div>
-  <p style="font-size: 1.5rem">1 cup raw nuts, such as cashews, almonds, hazelnuts, pecans, etc.<br><br>3-4 cups hot water, plus water for soaking<br><br>4   tbsp raw honey<br><br>pinch of sea salt<br><br><sup>1</sup>&frasl;<sub>8</sub>  tsp vanilla extract</p>
+
+About 65% of the world’s population has some degree of lactose intolerance after infancy. This may come as a shock in a country where milk is touted as a perfect food required for adequate calcium and protein, but in the animal world, mammals never require the need to produce the lactose-digesting enzyme lactase after being weaned. Let’s face it, humans are the only animals who continue to consume milk after infancy, and it’s no wonder that the majority of our bodies stop producing lactase when it’s no longer biologically needed.     
+&nbsp;
+
+Some of us choose to drink milk because we believe that it is essential for good bone health or protein consumption. Others simply like the taste or enjoy coffee or cereal with a splash of milk. Nuts and nut milks are the perfect milk substitute in both cases.  
+&nbsp;
+
+Milk campaigns and supposed age old wisdom has ingrained in our heads that milk is the key to strong bones. In reality, milk is far from the sole answer; the foundation of bone health lies in regular exercise and a balanced diet of calcium-containing foods, salt and animal protein which encourage calcium excretion, and vitamin- and mineral-rich foods. We can consume calcium in a variety of foods—not just milk—such as nuts, beans, dark greens such as kale and collards, and foods processed with calcium salts, like tofu. Hazelnuts, for example, provide a comparable amount of calcium per 100g to reduced fat milk, and almonds can provide more than twice the amount of calcium. Additionally, many nuts, such as cashews, almonds, and hazelnuts, contain far more protein per 100g than reduced fat milk. Nuts are also an excellent source of many vitamins and minerals, notably vitamin E and folic acid.   
+
+&nbsp;
+
+<div class="text-center">
+<h4><strong>USDA Standard Reference Nutrition based on 100g serving size</strong></h4><br>
+<img src="/pictures/features/nut-nutrition.png" style="width: 100%">
 </div>
-<div class="directions">
-  <p style="font-size: 1.5rem">Choose raw nuts with an opaque, off-white interior. Nuts with translucent or dark interiors likely have begun to turn rancid and have already released oil. If you can, remove the skin of the nuts, which is astringent. However, if you can't, take comfort in knowing that the skins contain additional antioxidants. </p><br>
-  <h4><strong>Directions</strong></h4><br>
-  <ol style="font-size: 1.5rem">
-      <li>  No less than 12 hours in advance, place nuts in a large bowl and cover with filtered water by at least a couple inches. Let sit for 12-48 hours. Soaking is an essential step because blending dry nuts extracts only oil as the liquid phase of the blended paste. Soaking the nuts allows you to obtain a continuous water-based mixture of oil bodies, proteins, sugars, and salts ― aka nut milk.</li><br>
-      <li>  Drain and rinse nuts. At this points, the skins of many nuts will easily slide off if you gently squeeze each nut. Add nuts into blender with honey, sea salt, vanilla extract, and 3 cups of fresh, hot, filtered water (hot water helps to release the oil bodies and integrate with water, resulting in creamy milk). Blend on high until smooth, about 2-3 minutes.</li><br>
-      <li>  Leave nut milk unstrained for more nutritional value or strain through nut milk bag/cheesecloth/fine-mesh sieve, making sure to squeeze nut pulp to extract all liquid. Save the nut pulp, which contains most of the nutrients, for other purposes: it can be added to granola before baking, frozen in ice cube trays and popped into smoothies, folded into oatmeal and various batters, etc. Taste nut milk and dilute with extra water as needed.</li><br>
-      <li>  Store in airtight container in fridge. Nut milk should last for 3-4 days. No matter how well you strain, nut milk will naturally separate as it sits. Shake well before use.</li><br>
-  </ol>
-</div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+&nbsp;
+
+Unfortunately, while nuts themselves are incredibly nutritious, most of the nuts are strained out when making nut milk. If you have a high-powered blender, you may opt to leave your nut milk unstrained, which leaves the liquid with all of the nutrients. If you do strain your nut milk, make sure not to throw out the remaining nut pulp. The liquid may not be as nutritious, but there are plenty of uses for the nutrient-dense nut pulp in order to get the equivalent of eating the nuts whole: it can be added to granola before baking, frozen in ice cube trays and popped into smoothies, folded into oatmeal and various batters, etc. The appeal of homemade nut milk isn’t its nutritional value on its own but the ability to control the ingredients while creating a substitute for milk. Store-bought nut milks may contain higher concentrations of calcium and protein due to fortification, but this process typically also adds more calories, fat, sugar, and stabilizers. By consuming whole nuts to get many or more of the benefits of drinking milk or by processing nuts into nut milk (for a milk substitute) and strained nut pulp (for nutrition), you can easily replace milk in your diet with a healthier option.  

@@ -263,6 +263,11 @@ footer {
   grid-row-end: 9;
 }
 
+@media screen and (max-width: 600px) {
+  .home-gallery {
+    display: block;
+  }
+}
 
 /* row for homepage */
 .row {

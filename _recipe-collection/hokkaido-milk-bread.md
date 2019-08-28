@@ -1,12 +1,11 @@
 ---
 layout: recipe
 title: Hokkaido Milk Bread
-tag: Breakfast
 image-1: /pictures/recipes/hokkaido-milk-bread-thumbnail.jpg
 image-2: /pictures/recipes/hokkaido-milk-bread-thumbnail-2.jpg
 description: Breakfast? Dessert? Snack? No matter when you eat this fluffy, sweet bread, you'll enjoy it all the same.
 advice: A breadmaker will be your best friend to make this sticky, soft dough.
-servings: Makes two loafs (2lb bread tins)
+servings: Makes two loaves (2lb bread tins)
 excerpt_separator: <!--more-->
 date: 2019-07-19
 ---
