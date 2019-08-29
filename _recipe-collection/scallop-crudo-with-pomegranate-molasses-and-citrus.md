@@ -20,7 +20,7 @@ date: 2019-07-09
 
 2 tbsp freshly squeezed lime juice      
 
-3 tbsp pomegranate molasses     
+2 tbsp pomegranate molasses     
 
 <sup>1</sup>&frasl;<sub>2</sub> blood orange, supremed      
 

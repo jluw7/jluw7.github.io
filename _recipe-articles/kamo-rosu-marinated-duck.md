@@ -14,4 +14,4 @@ I love duck. If I see a duck entree on a menu, I will choose it over any other m
 
 &nbsp; 
 
-Meant to be served cold, this is the perfect recipe to make in advance. It requires little prep and cook time but appears impressive due to the rich flavors and foolproof cooking. This duck is perfect to start a meal, accompany a salad or noodles, or simply eat with rice.
+Meant to be served cold, this is a great recipe to make in advance. It requires little prep and cook time but appears impressive with its rich flavors. Kamo rosu is perfect to start a meal, accompany a salad or noodles, or simply serve with rice.

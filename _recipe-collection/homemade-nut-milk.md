@@ -48,9 +48,9 @@ pinch of sea salt
 <br>
 
 - Almond and Cold Brew: almond milk as above + cold brew
-- Cashew and Date: cashew milk with one date instead of honey + cinnamon
-- Oat and Maple: swap nuts for oats and honey for maple syrup
-- Pistachio and Lemon: pistachio milk (or half pistachio, half oat milk) + infused lemon peel
+- Cashew and Date: cashew milk (substituting one date for honey/maple syrup) + pinch of cinnamon
+- Oat and Maple: swap nuts for oats and use maple syrup
+- Pistachio and Lemon: pistachio milk (or half pistachio, half oat milk) + infuse with lemon peel
 
 <br>
 

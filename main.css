@@ -15,11 +15,6 @@ html, body {
 header {
   margin-bottom: 60px;
 }
-/* for search bar
-nav {
-  padding-right: 50px;
-}
-*/
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
@@ -32,7 +27,13 @@ nav a {
 }
 .navbar-brand {
   height: 60px;
-  font-size: 30px;
+  font-size: 15px;
+  display: inline;
+  font-family: 'Hind Siliguri', sans-serif;
+  align-items: baseline;
+}
+.navbar-brand img {
+  float: left;
 }
 .right {
   display: inline;
@@ -41,7 +42,7 @@ nav a {
 
 /*search bar*/
 
-/*
+
 #wrap {
   display: inline;
 }
@@ -71,7 +72,7 @@ input[type="search"]:focus:hover {
 }
 
 input[type="search"]:focus {
-  width: 400px;
+  width: 300px;
   z-index: 1;
   border-bottom: 1px solid #BBB;
   cursor: text;
@@ -88,7 +89,7 @@ input[type="submit"] {
   border: none;
   position: absolute;
   top: 0;
-  right: 20px;
+  right: 10px;
   z-index: 2;
   cursor: pointer;
   opacity: 0.8;
@@ -98,7 +99,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   opacity: 1.0;
 }
-*/
+
 
 /*end search bar*/
 
@@ -120,6 +121,16 @@ footer {
 .main-container h1 {
   font-family: 'Hind Siliguri', sans-serif;
   text-transform: uppercase;
+}
+
+/*start here*/
+
+.why-btt {
+  width: 80%;
+  display: inline-block;
+}
+.txt-cntr {
+  text-align: center;
 }
 
 /* about fully responsive on desktop */
@@ -161,7 +172,6 @@ footer {
 
 
 /* homepage fully responsive on desktop */
-
 
 .home-gallery {
   display: grid;
@@ -791,4 +801,20 @@ footer {
   padding: 10vh 15vw;
   font-size: 1.75rem;
   line-height: 3rem;
+}
+
+/*subscribe*/
+.subscribe {
+  text-align: center;
+}
+
+.subscribe-form {
+  width: 50%;
+  display: inline-block;
+}
+@media screen and (max-width: 450px) {
+  .subscribe-form {
+    width: 90%;
+    padding: 0 5%;
+  }
 }
