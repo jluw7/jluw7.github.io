@@ -12,10 +12,11 @@ date: 2019-07-09
 
 <sup>1</sup>&frasl;<sub>4</sub> cup freshly squeezed lemon juice
 2 tbsp minced shallot
-1 <sup>1</sup>&frasl;<sub>2</sub> tbsp fish sauce
-<sup>1</sup>&frasl;<sub>2</sub> tsp chili powder or red pepper flakes
+2 tbsp fish sauce
+<sup>1</sup>&frasl;<sub>2</sub> tbsp soy sauce
+<sup>1</sup>&frasl;<sub>2</sub> tsp chili powder or red pepper flakes (I like using S&B's Nanami Togarashi)
 <sup>1</sup>&frasl;<sub>4</sub> cup extra-virgin olive oil
-<sup>1</sup>&frasl;<sub>4</sub> cup grapeseed oil
+<sup>1</sup>&frasl;<sub>4</sub> cup grapeseed oil or other neutral-flavored oil, such as avocado oil
 2 bunches of broccolini
 
 <!--more-->
@@ -34,4 +35,4 @@ In a bowl, combine lemon juice and shallot and set aside for at least 20 minutes
 
 <br>
 
-Trim the ends of the broccolini stems and halve lengthwise if thicker than 1/4 an inch. Quickly blanch broccolini in a pot of boiling water for 2 minutes.  Drain and toss with fish sauce vinaigrette. 
+Trim the ends of the broccolini stems and halve lengthwise if thicker than 1/4 an inch. Quickly blanch broccolini in a pot of boiling water for 2 minutes.  Drain and drizzle with fish sauce vinaigrette. 
