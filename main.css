@@ -10,20 +10,29 @@ html, body {
   display: block;
   position: relative;
   padding-bottom: 25px; /* height of footer */
-  background-color: #fbf7f5;
+  background-color: #fbf9f9;
 }
 header {
   margin-bottom: 60px;
+  border-bottom: 3px solid transparent;
 }
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
   font-size: 12px;
-  color: #fff;
+  background-color: #fbf9f9;
+  color: black;
+  border-bottom: 3px solid transparent;
 }
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: black;
+  border-bottom: 3px solid #dcdcdc;
+}
+
 .navbar {
-  background-color: black;
+  background-color: #fbf9f9;
   align-items: center;
+  border-bottom: 3px solid transparent;
 }
 .navbar-brand {
   height: 60px;
@@ -42,7 +51,7 @@ nav a {
 
 /*search bar*/
 
-
+/*
 #wrap {
   display: inline;
 }
@@ -100,7 +109,7 @@ input[type="submit"]:hover {
   opacity: 1.0;
 }
 
-
+*/
 /*end search bar*/
 
 .container {
@@ -125,12 +134,53 @@ footer {
 
 /*start here*/
 
-.why-btt {
-  width: 80%;
-  display: inline-block;
+.start-here {
+  display: flex;
+  align-items: center;
+  height: 90vh;
 }
-.txt-cntr {
-  text-align: center;
+#Dumplings {
+  width: 30vw;
+  display: inline-block;
+  margin: 0 0 0 5vw;
+}
+#Dumplings img {
+  object-fit: cover;
+  max-width: 100% !important;
+}
+#Start-Here-1 {
+  display: inline-block;
+  width: 40vw;
+  margin: 0 0 0 10vw;
+}
+#Feast {
+  width: 30vw;
+  display: inline-block;
+  margin: 0 5vw 0 0;
+}
+#Feast img {
+  object-fit: cover;
+  max-width: 100% !important;
+}
+#Start-Here-2 {
+  display: inline-block;
+  width: 40vw;
+  margin: 0 10vw 0 5vw;
+}
+@media screen and (max-width: 600px) {
+    .start-here {
+      display: block;
+      height: auto;
+      text-align: center;
+    }
+    #Dumplings {
+      width: 70vw;
+      margin: 0;
+    }
+    #Start-Here {
+      width: 70vw;
+      margin: 5vh 0 0 0;
+    }
 }
 
 /* about fully responsive on desktop */
@@ -193,15 +243,15 @@ footer {
   box-shadow: none;
 }
 .home-gallery-item img:hover {
-  box-shadow: 10px -10px 0 coral;
+  box-shadow: 10px -10px 0 #468872;
 }
 .home-gallery-caption {
-  background-color: #fbf7f5;
+  background-color: #fbf9f9;
   height: 17vh;
   padding: 3vh 2vw;
 }
 .home-gallery-caption p {
-  color: coral !important;
+  color: #468872 !important;
 }
 .home-gallery-caption h4 {
   line-height: 2.5rem;
@@ -210,7 +260,7 @@ footer {
   color: black;
 }
 .home-gallery-caption a:hover {
-  text-decoration-color: coral;
+  text-decoration-color: #468872;
 }
 .home-gallery-item-1 {
   grid-column-start: 10;
@@ -292,12 +342,14 @@ footer {
 }
 /* homepage cards */
 .card {
-  background-color: #fff;
-  height: 65vh;
+  background-color: #fbf9f9;
+  height: 50vh;
 }
+/*
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+*/
 .card-thumbnail {
   position: relative;
   top: 0;
@@ -305,24 +357,25 @@ footer {
 }
 .card-thumbnail img {
   object-fit: cover;
-  height: 50vh;
+  height: 40vh;
 }
 .card-thumbnail.feature img {
   object-fit: cover;
   height: 35vh;
 }
 .caption {
-  height: 15vh;
-  padding: 0 5vw;
+  height: 10vh;
+  padding: 0;
+/*  padding: 0 5vw;*/
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+/*  justify-content: center;
+  align-items: center;*/
 }
 .caption.feature {
-  height: 30vh;
+  height: 15vh;
 }
 .caption p {
   margin: 0;
@@ -377,10 +430,72 @@ footer {
   text-transform: uppercase;    
 }
 .btn:hover {
-  background-color: black;
-  border-color: #fff;
+  background-color: white;
+  color: black;
 }
 
+.highlights-jumbotron {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  background-size: cover;
+  color: #ffffff;
+  height: auto;
+  width: 100%;
+  padding-bottom: 10vh;
+}
+.highlights-jumbotron h4 {
+  color: #fbf7f5;
+}
+.highlights {
+  display: flex;
+  height: 75vh;
+  width: 80%;
+}
+#most-popular {
+  width: 45%;
+  margin-right: 5%;
+}
+#most-pop-item {
+  display: flex;
+  margin-bottom: 4vh;
+}
+.most-pop-item-img {
+  width: 30%;
+  margin-right: 3vw;
+}
+#most-pop-item-title {
+  border-bottom-color: #fbf9f9;
+  border-bottom-style: solid;
+  border-bottom-width: 100%;
+  padding-top: 2vh;
+}
+#most-pop-item a {
+  color: black;
+}
+#most-pop-item a:hover {
+  text-decoration: none;
+}
+#authors-picks {
+  width: 45%;
+  margin-left: 5%;
+}
+@media screen and (max-width: 600px) {
+    .highlights {
+      display: block;
+      height: auto;
+      text-align: center;
+    }
+    #most-popular {
+      width: 70vw;
+      margin: 0;
+    }
+    #authors-picks {
+      width: 70vw;
+      margin: 5vh 0 0 0;
+    }
+}
 
 
 /* recipes display, fully responsive on computer */
@@ -410,7 +525,7 @@ footer {
 .grid-item {
   display: inline-block;
   transition: 0.3s;
-  background-color: #fbf7f5;
+  background-color: #fbf9f9;
 }
 .grid-item-thumbnail img {
   transition: box-shadow 0.3s;
@@ -418,7 +533,7 @@ footer {
   height: 100%;
 }
 .grid-item-thumbnail img:hover {
-  box-shadow: 10px -10px 0 coral;
+  box-shadow: 10px -10px 0 #468872;
 }
 .grid-caption {
   padding-top: 0;
@@ -431,6 +546,9 @@ footer {
   color: black;
   text-decoration: none;
 }
+.grid-caption a:hover {
+  color: #468872;
+}
 .tag {
   text-transform: uppercase;
   padding-top: 2rem;    
@@ -442,8 +560,11 @@ footer {
   margin-bottom: 0;
 }
 .tag a {
-  color: coral;
+  color: #468872;
   text-decoration: none;
+}
+.tag a:hover {
+  text-decoration: underline;
 }
 
 
@@ -554,7 +675,7 @@ footer {
 }
 .recipe-article {
   padding: 10vh 15vw;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 3rem;
 }
 .get-recipe {
@@ -563,7 +684,7 @@ footer {
 }
 .get-recipe h3 {
   margin-top: 3vh;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .get-recipe a {
   color: black;
@@ -599,7 +720,7 @@ footer {
 }
 .recipe-title {
   margin: 0;
-  height: 18vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -655,15 +776,16 @@ footer {
   text-transform: uppercase;
 }
 .ingredients-title h3 {
-  border-bottom-width: 100%;
+  border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: black;
   padding-bottom: 2rem;
+  margin-bottom: 0px;
 }
 .directions {
   height: auto;
   width: 70vw;
-  padding: 7vh 10vw 10vh 5vw;
+  padding: 5vh 10vw 10vh 5vw;
 }
 #footer {
   position: relative;
